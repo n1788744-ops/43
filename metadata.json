@@ -1,0 +1,6 @@
+{
+  "name": "Тень Ведьмы",
+  "description": "3D хоррор-побег от первого лица: помогите 17-летней Насте сбежать из дома ведьмы, собирая спрятанные предметы и решая магические головоломки.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

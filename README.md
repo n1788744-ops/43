@@ -1,11 +1,12 @@
-<div align="center">
+# Тень Ведьмы (3D Хоррор-побег)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+Android-игра от первого лица на OpenGL ES 2.0 с 3D-моделью ведьмы, новым 5-уровневым домом («Чёрная Усадьба у Болота») с настоящими комнатами, открывающимися дверями и подвалом-темницей, оружием самообороны (кочерга, серебряный клинок, арбалет), голосовым инструктажем Насти и русской озвучкой.
 
-  <h1>Built with AI Studio</h2>
+## Скачать APK
+Готовый установочный файл для Android (подписан debug-ключом) находится прямо в репозитории:
+- [`releases/TenVedmy-debug.apk`](releases/TenVedmy-debug.apk)
 
-  <p>The fastest path from prompt to production with Gemini.</p>
-
-  <a href="https://aistudio.google.com/apps">Start building</a>
-
-</div>
+Чтобы пересобрать и обновить APK в папке `releases/`, выполните:
+```bash
+gradle :app:exportApkToRepo
+```
